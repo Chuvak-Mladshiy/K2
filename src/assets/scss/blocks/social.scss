@@ -1,0 +1,14 @@
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+    @include breakpoint($tablet-bp){
+        display: none;
+    }
+}
+
+.social__item{
+    margin: 0 .75rem;
+    list-style: none;
+}

@@ -1,0 +1,141 @@
+---
+layout: default
+title: Post
+---
+
+<article class="post">
+    <div class="post__actions">
+        <a href="index.html">вернуться назад</a>
+        <a href="#">
+            поделиться
+            <img class="post_actions-icon" src="assets/images/share.svg" alt="поделиться">
+        </a>
+    </div>
+
+    <div class="post__header post__header">
+        <h1 class="post__title post__title--open">Как я сходил на FrontEnd Conf 2021</h1>
+            <ul class="post__data">
+                <li class="post__data-item">
+                    <time datetime="2020-06-21 19:20">21.06.2020</time>
+                </li>
+                <li class="post__data-item">
+                    <a href="#">конференции</a>
+                </li>
+            </ul>
+    </div>
+
+    <div class="post__content">
+        <div class="post__text">
+            <h2>Title H2</h2>
+            <p>Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Voluptatibus facilis 
+            repellat fuga ullam est expedita quasi magni 
+            exercitationem hic earum possimus, provident quae 
+            perferendis, voluptate veniam et modi asperiores libero!</p>
+            <h3>Title h3</h3>
+            <p>Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Voluptatibus facilis 
+            repellat fuga ullam est expedita quasi magni 
+            exercitationem hic earum possimus, provident quae 
+            perferendis, voluptate veniam et modi asperiores libero!</p>
+            <h4>title h4</h4>
+            
+            <p>
+                <img src="assets/images/image.jpg" alt="">
+            </p>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Voluptatibus facilis 
+                repellat fuga ullam est expedita quasi magni 
+                exercitationem hic earum possimus, provident quae 
+                perferendis, voluptate veniam et modi asperiores libero!</p>
+        </div>   <!--/Post Text-->
+
+        <div class="related">
+            <h3 class="post__subtitle">Интересно почитать</h3>
+
+            <ul class="related__list">
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как я сходил ушел пришел нашел</a>
+                    </h4>
+                    <time class="related__list-date" 
+                    datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как я сходил ушел пришел нашел</a>
+                    </h4>
+                    <time class="related__list-date" 
+                    datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как я сходил ушел пришел нашел</a>
+                    </h4>
+                    <time class="related__list-date" 
+                    datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как я сходил ушел пришел нашел</a>
+                    </h4>
+                    <time class="related__list-date" 
+                    datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+            </ul>
+        </div> <!--/related-->
+
+            <h3 class="post__subtitle">Обсуждение</h3>
+
+            <form class="form" action="/">
+                <div class="form__group">
+                    <textarea class="form__control form__control--textarea" 
+                    name="comment-text" placeholder="Текст коментария" data-autoresize></textarea>
+                    <span class="form__line"></span>
+            </div>
+                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+            </form>
+            
+        <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="assets/images/adel.jpg" alt="">
+
+                    <div class="comments__author">
+                    <div class="comments__name">Аделина Низамова</div>
+                    <time class="comments__pubdate" datetime="2022-12-21 19:21"></time>
+                </div>
+            </div>
+                
+                <div class="comments__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Accusamus repudiandae tempore hic aut ab similique? 
+                        Dignissimos maxime non quisquam neque dolores excepturi, 
+                        tempore impedit sed deserunt accusamus, 
+                        quis tenetur officia?
+                </div>
+                <button class="comments__reply" type="button">ответить</button>
+            </li>
+            <ul class="comments">
+                <li class="comments__item">
+                    <div class="comments__header">
+                        <img class="comments__avatar" src="assets/images/adel.jpg" alt="">
+    
+                        <div class="comments__author">
+                        <div class="comments__name">Аделина Низамова</div>
+                        <time class="comments__pubdate" datetime="2022-12-21 19:21"></time>
+                    </div>
+                </div>
+                    
+                    <div class="comments__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusamus repudiandae tempore hic aut ab similique? 
+                            Dignissimos maxime non quisquam neque dolores excepturi, 
+                            tempore impedit sed deserunt accusamus, 
+                            quis tenetur officia?
+                    </div>
+                    <button class="comments__reply" type="button">ответить</button>
+                </li>
+            </ul>
+        </ul>
+
+    </div> <!--/Post Content-->
+</article> <!--/Post-->
